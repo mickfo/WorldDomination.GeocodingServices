@@ -48,8 +48,8 @@ namespace WorldDomination.GeocodingServices.Tests
 
                 // Asserts.
                 Assert.NotNull(result);
-                Assert.Equal("38.898717", result.Latitude);
-                Assert.Equal("-77.035974", result.Longitude);
+                Assert.Equal(38.898717m, result.Latitude);
+                Assert.Equal(-77.035974m, result.Longitude);
             }
         }
     }
