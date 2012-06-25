@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldDomination.GeocodingServices.Tests", "Code\WorldDomination.GeocodingServices.Tests\WorldDomination.GeocodingServices.Tests.csproj", "{96EE237C-D625-47A3-9E13-FA5474F5D64F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{EDD8E7D5-4684-46B7-A0A0-31F0062B1343}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldDomination.GeocodingServices", "Code\WorldDomination.GeocodingServices\WorldDomination.GeocodingServices.csproj", "{FB1398EA-0BAA-41B4-A718-0BD4AE8D9CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldDomination.GeocodingServices.IntegrationTests", "Code\WorldDomination.GeocodingServices.IntegrationTests\WorldDomination.GeocodingServices.IntegrationTests.csproj", "{9C93A51B-128C-47BC-B39E-5D98D39637AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96EE237C-D625-47A3-9E13-FA5474F5D64F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96EE237C-D625-47A3-9E13-FA5474F5D64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96EE237C-D625-47A3-9E13-FA5474F5D64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96EE237C-D625-47A3-9E13-FA5474F5D64F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1398EA-0BAA-41B4-A718-0BD4AE8D9CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1398EA-0BAA-41B4-A718-0BD4AE8D9CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1398EA-0BAA-41B4-A718-0BD4AE8D9CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1398EA-0BAA-41B4-A718-0BD4AE8D9CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C93A51B-128C-47BC-B39E-5D98D39637AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C93A51B-128C-47BC-B39E-5D98D39637AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C93A51B-128C-47BC-B39E-5D98D39637AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C93A51B-128C-47BC-B39E-5D98D39637AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
